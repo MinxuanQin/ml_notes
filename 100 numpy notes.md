@@ -113,6 +113,7 @@ NaN的exponent为可表达的最大值，significand部分不为0
 inf的significand部分为0。
 
 不要在 Python 中试图用 is 和 == 来判断一个对象是否是正负无穷或者 NaN。
+
 13. np.diag(v,k)
 v:vector,k:diaginal<br>
 `np.diagonal`for extract diagonal
