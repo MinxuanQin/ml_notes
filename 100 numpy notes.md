@@ -107,9 +107,18 @@ float("inf")   #正无穷
 float("-inf")
 ```
 
-inf * 0 = NaN;
-\> inf = NaN.
+inf * 0 = NaN;<br>
+\> inf = NaN.<br>
 NaN的exponent为可表达的最大值，significand部分不为0
 inf的significand部分为0。
 
 不要在 Python 中试图用 is 和 == 来判断一个对象是否是正负无穷或者 NaN。
+13. np.diag(v,k)
+v:vector,k:diaginal<br>
+`np.diagonal`for extract diagonal
+14. np.unravel_index(index,shape)
+返回index（平面）在所给shape中的位置
+15. np.tile(array,reps)
+复制array reps次
+16. np.dtype(\[(r,g,b)\])
+17. real matrix product : `np.dot`
